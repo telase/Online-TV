@@ -1,0 +1,32 @@
+
+select option {
+  text-align: center;
+}
+select option:hover {
+  background: #000;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+select option:active {
+  background-color: #000;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+.selectMenu {
+  display: inline-block;
+  overflow: hidden;
+#  margin-top: -16px;
+}
+
+.selectMenu select {
+  width: 115%;
+    height: auto;
+    max-height: 37.5vw;
+  opacity: 0.8;
+  background-color: #001;
+  color: #fff;
+  padding: .2em;
+  border: 0;
+  border-radius: 5px;
+}
